@@ -45,10 +45,11 @@ const translations = {
         sb_highlights: "KEY HIGHLIGHTS",
         hl_1: "22+ Years of K-12 Teaching Experience",
         hl_2: "EdTech Specialist",
-        hl_3: "Educational Content Production with AI Tools",
-        hl_4: "Video, Graphic & Audio Production",
-        hl_5: "Co-Founder, İda Kaşifleri Tech & Nature Workshop",
-        hl_6: "Coordinator for Various Educational Projects",
+        hl_3: "Educational Content Production",
+        hl_4: "Integrating AI Tools into Education",
+        hl_5: "Video, Graphic & Audio Production",
+        hl_6: "Co-Founder, İda Kaşifleri Tech & Nature Workshop",
+        hl_7: "Coordinator for Various Educational Projects",
 
         // Section Headings
         sec_profile: "PROFILE & SUMMARY",
@@ -188,10 +189,11 @@ const translations = {
         sb_highlights: "PUNTI DI FORZA",
         hl_1: "Oltre 22 Anni di Esperienza K-12",
         hl_2: "Specialista EdTech",
-        hl_3: "Produzione di Contenuti Educativi con Strumenti IA",
-        hl_4: "Produzione Video, Grafica e Audio",
-        hl_5: "Cofondatore, İda Kaşifleri Laboratorio di Tecnologia e Natura",
-        hl_6: "Coordinatore di Vari Progetti Educativi",
+        hl_3: "Produzione di Contenuti Educativi",
+        hl_4: "Integrazione degli Strumenti IA nell'Educazione",
+        hl_5: "Produzione Video, Grafica e Audio",
+        hl_6: "Cofondatore, İda Kaşifleri Laboratorio di Tecnologia e Natura",
+        hl_7: "Coordinatore di Vari Progetti Educativi",
 
         // Section Headings
         sec_profile: "PROFILO & SINTESI PROFESSIONALE",
@@ -229,7 +231,7 @@ const translations = {
         proj3_title: "Fly Fly Butterfly (Progetto Internazionale eTwinning)",
         proj3_role: "Fondatore & Coordinatore Tecnologico",
         proj3_date: "Collaborazione Internazionale",
-        proj3_desc: "Fondazione e gestione di un progetto di collaborazione tra scuole internazionali, curando l'infrastruttura digitale e le attività interculturali.",
+        proj3_desc: "Fondazione e gestione di un progetto di collaborazione tra scuole internazionali, curando l'infrastruttura digitale e le activities interculturali.",
 
         proj4_title: "EduManu (edumanu.com)",
         proj4_role: "Cofondatore & Instructional Designer",
@@ -331,10 +333,11 @@ const translations = {
         sb_highlights: "ÖNE ÇIKANLAR",
         hl_1: "22 yıldan fazla K-12 tecrübesi",
         hl_2: "EdTech Uzmanı",
-        hl_3: "AI araçlarıyla eğitim içerikleri üretimi",
-        hl_4: "Video, grafik ve ses prodüksiyonu",
-        hl_5: "Co-founder İda Kaşifleri Teknoloji ve Doğa Atölyesi",
-        hl_6: "Çeşitli eğitim projeleri koordinatörü",
+        hl_3: "Eğitim içerikleri üretimi",
+        hl_4: "Eğitimde yapay zeka entegrasyonu",
+        hl_5: "Video, grafik ve ses prodüksiyonu",
+        hl_6: "Co-founder İda Kaşifleri Teknoloji ve Doğa Atölyesi",
+        hl_7: "Çeşitli eğitim projeleri koordinatörü",
 
         // Section Headings
         sec_profile: "PROFESYONEL ÖZET",
