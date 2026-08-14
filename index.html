@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serhat KABAİŞ | Executive Curriculum Vitae & Portfolio</title>
+    <meta name="description" content="Executive CV & Professional Portfolio of Serhat KABAİŞ. K-12 Educator, EdTech Specialist, AI Integration Trainer, and Co-Founder of EduManu.">
+    <meta name="keywords" content="Serhat Kabaış, K12 Educator, EdTech, Artificial Intelligence, Digital Anthropology, Digital Ethnography, EduManu, Çanakkale, Arduino, eTwinning, TÜBİTAK, AI Mosaic">
+    
+    <!-- Open Graph Metadata -->
+    <meta property="og:title" content="Serhat KABAİŞ | Executive Curriculum Vitae">
+    <meta property="og:description" content="22+ Years K-12 Experience, AI Integration Trainer, EdTech M.Sc. Student.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://edumanu.com">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="https://edumanu.com/favicon.png">
+</head>
+<body>
+
+    <!-- Sticky Top Navigation Bar -->
+    <nav class="top-nav">
+        <div class="top-nav-container">
+            <a href="#" class="brand-title">
+                <span>SERHAT KABAİŞ</span>
+                <span style="font-weight:400; color:var(--text-muted); font-size:0.9rem;">| Curriculum Vitae</span>
+            </a>
+
+            <div class="nav-actions">
+                <!-- Language Switcher (EN | IT | TR) -->
+                <div class="lang-switcher">
+                    <button class="lang-btn active" data-lang="en">EN</button>
+                    <button class="lang-btn" data-lang="it">IT</button>
+                    <button class="lang-btn" data-lang="tr">TR</button>
+                </div>
+
+                <!-- Print / Save PDF Button -->
+                <button id="btnPrintCv" class="btn-print" data-i18n="btn_print_cv">
+                    🖨️ Print / Save PDF CV
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main CV Paper Document -->
+    <main class="cv-document">
+        <div class="cv-grid-layout">
+            
+            <!-- LEFT SIDEBAR -->
+            <aside class="sidebar">
+                <!-- Avatar Profile Photo -->
+                <div class="avatar-wrapper">
+                    <img src="serhat_photo.png" alt="Serhat KABAİŞ" class="profile-avatar" id="profilePhoto">
+                </div>
+
+                <!-- Contact Information -->
+                <div class="sidebar-block">
+                    <h3 class="sidebar-title" data-i18n="sb_contact">İLETİŞİM BİLGİLERİ</h3>
+                    <ul class="contact-list">
+                        <li class="contact-item">
+                            <span class="contact-icon">📍</span>
+                            <span data-i18n="sb_location">Çanakkale / Türkiye</span>
+                        </li>
+                        <li class="contact-item">
+                            <span class="contact-icon">✉️</span>
+                            <a href="mailto:serhatkabais@gmail.com">serhatkabais@gmail.com</a>
+                        </li>
+                        <li class="contact-item">
+                            <span class="contact-icon">🌐</span>
+                            <a href="https://edumanu.com" target="_blank">edumanu.com</a>
+                        </li>
+                        <li class="contact-item">
+                            <span class="contact-icon">🔗</span>
+                            <a href="https://www.linkedin.com/in/serhatkabais/" target="_blank">LinkedIn</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Core Competencies / Skills -->
+                <div class="sidebar-block">
+                    <h3 class="sidebar-title" data-i18n="sb_skills">CORE COMPETENCIES</h3>
+                    
+                    <div class="skill-bar-item">
+                        <div class="skill-name">
+                            <span data-i18n="skill_1">AI Integration & LLM Agents</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="skill-track"><div class="skill-fill" style="width: 95%;"></div></div>
+                    </div>
+
+                    <div class="skill-bar-item">
+                        <div class="skill-name">
+                            <span data-i18n="skill_2">EdTech & LMS Platforms</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-track"><div class="skill-fill" style="width: 90%;"></div></div>
+                    </div>
+
+                    <div class="skill-bar-item">
+                        <div class="skill-name">
+                            <span data-i18n="skill_3">Arduino & Physical Computing</span>
+                            <span>88%</span>
+                        </div>
+                        <div class="skill-track"><div class="skill-fill" style="width: 88%;"></div></div>
+                    </div>
+
+                    <div class="skill-bar-item">
+                        <div class="skill-name">
+                            <span data-i18n="skill_4">TÜBİTAK, eTwinning & Teknofest</span>
+                            <span>92%</span>
+                        </div>
+                        <div class="skill-track"><div class="skill-fill" style="width: 92%;"></div></div>
+                    </div>
+                </div>
+
+                <!-- Languages & Communication -->
+                <div class="sidebar-block">
+                    <h3 class="sidebar-title" data-i18n="sb_languages">DİLLER VE İLETİŞİM</h3>
+                    <ul class="sidebar-list">
+                        <li class="sidebar-list-item">
+                            <strong data-i18n="lang_direct_label">Doğrudan İletişim:</strong>
+                            <div style="margin-top: 0.2rem; color: var(--accent-navy); font-weight:600;" data-i18n="lang_direct_val">İngilizce, Türkçe, Fransızca, Kürtçe</div>
+                        </li>
+                        <li class="sidebar-list-item" style="margin-top: 0.75rem;">
+                            <strong data-i18n="lang_ai_label">Yapay Zeka Destekli İletişim:</strong>
+                            <div style="margin-top: 0.2rem; color: var(--accent-blue); font-weight:600;" data-i18n="lang_ai_val">Neredeyse tüm dünya dilleri (LLM Çeviri Ajanları ile)</div>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Key Highlights -->
+                <div class="sidebar-block">
+                    <h3 class="sidebar-title" data-i18n="sb_highlights">KEY HIGHLIGHTS</h3>
+                    <ul class="sidebar-list">
+                        <li class="sidebar-list-item" data-i18n="hl_1">22 yıldan fazla K-12 tecrübesi</li>
+                        <li class="sidebar-list-item" data-i18n="hl_2">EdTech Uzmanı</li>
+                        <li class="sidebar-list-item" data-i18n="hl_3">AI araçlarıyla eğitim içerikleri üretimi</li>
+                        <li class="sidebar-list-item" data-i18n="hl_4">Video, grafik ve ses prodüksiyonu</li>
+                        <li class="sidebar-list-item" data-i18n="hl_5">Co-founder İda Kaşifleri Teknoloji ve Doğa Atölyesi</li>
+                        <li class="sidebar-list-item" data-i18n="hl_6">Çeşitli eğitim projeleri koordinatörü</li>
+                    </ul>
+                </div>
+            </aside>
+
+            <!-- RIGHT MAIN CONTENT -->
+            <section class="main-content">
+                <!-- Header -->
+                <header class="main-header">
+                    <h1 class="candidate-name" data-i18n="name">SERHAT KABAİŞ</h1>
+                    <h2 class="candidate-title" data-i18n="title">K-12 Educator & Educational Technology Specialist</h2>
+                    <p class="candidate-tagline" data-i18n="tagline">Reducing teacher workload with AI to unlock quality time for every student.</p>
+                </header>
+
+                <!-- Profile & Summary -->
+                <section class="resume-section">
+                    <h3 class="section-heading">
+                        <span class="section-heading-icon">👤</span>
+                        <span data-i18n="sec_profile">PROFILE & SUMMARY</span>
+                    </h3>
+                    <p class="profile-text" data-i18n="profile_p1">Innovative educator with over 22 years of K-12 classroom teaching experience. Specialized in integrating Educational Technology (EdTech), Artificial Intelligence (AI), and physical programming tools into the curriculum to boost student engagement and project-based learning.</p>
+                    <p class="profile-text" data-i18n="profile_p2">Currently a Master's student in Educational Technology (EdTech), conducting research on digital anthropology, digital ethnography, and the transformative role of AI in learning environments. Active as a coordinator and AI trainer in national and international initiatives, including TÜBİTAK and eTwinning projects.</p>
+                </section>
+
+                <!-- Experience -->
+                <section class="resume-section">
+                    <h3 class="section-heading">
+                        <span class="section-heading-icon">💼</span>
+                        <span data-i18n="sec_experience">PROFESSIONAL EXPERIENCE</span>
+                    </h3>
+
+                    <!-- Exp 1 -->
+                    <article class="resume-block">
+                        <div class="block-header">
+                            <h4 class="block-role" data-i18n="exp1_role">K-12 Educator</h4>
+                            <span class="block-date" data-i18n="exp1_date">22+ Years – Present</span>
+                        </div>
+                        <div class="block-org" data-i18n="exp1_org">Ministry of National Education (MEB)</div>
+                        <p class="block-desc" data-i18n="exp1_desc">Implementing innovative, student-centered teaching methodologies across K-12 levels. Integrating AI tools and digital platforms into daily lesson plans to create interactive, future-ready learning environments.</p>
+                    </article>
+
+                    <!-- Exp 3 -->
+                    <article class="resume-block">
+                        <div class="block-header">
+                            <h4 class="block-role" data-i18n="exp3_role">Founder & Club Coordinator</h4>
+                            <span class="block-date" data-i18n="exp3_date">Starting Year – Present</span>
+                        </div>
+                        <div class="block-org" data-i18n="exp3_org">İda Kaşifleri (Ida Explorers - Nature, Science & Tech Club)</div>
+                        <p class="block-desc" data-i18n="exp3_desc">Designing hands-on science, technology, and nature workshops for children. Developing practical hardware and software projects with students to foster maker culture and creative problem-solving.</p>
+                    </article>
+                </section>
+
+                <!-- Featured Projects -->
+                <section class="resume-section">
+                    <h3 class="section-heading">
+                        <span class="section-heading-icon">🚀</span>
+                        <span data-i18n="sec_projects">FEATURED PROJECTS & INNOVATIONS</span>
+                    </h3>
+
+                    <div class="projects-grid">
+                        <article class="project-card">
+                            <div>
+                                <h4 class="project-title" data-i18n="proj5_title">AI Mosaic (European Quality Label eTwinning Project)</h4>
+                                <div class="project-tag" data-i18n="proj5_role">Project Founder & AI Technology Coordinator</div>
+                                <p class="project-desc" data-i18n="proj5_desc">Award-winning international eTwinning project combining primary arts education with generative AI tools (ElevenLabs, HeyGen, Google Veo). Digitally resurrected historical figures like Aristotle using AI avatars to enhance cultural heritage awareness.</p>
+                            </div>
+                        </article>
+
+                        <article class="project-card">
+                            <div>
+                                <h4 class="project-title" data-i18n="proj1_title">TÜBİTAK 4009 Village Science Fair (Assos / Gülpınar)</h4>
+                                <div class="project-tag" data-i18n="proj1_role">Project Coordinator & Organizer (Sept 2026)</div>
+                                <p class="project-desc" data-i18n="proj1_desc">Organized and executed a rural science festival under TÜBİTAK 4009, bringing science, technology, and interactive experiments to children in the Assos / Gülpınar region.</p>
+                            </div>
+                        </article>
+
+                        <article class="project-card">
+                            <div>
+                                <h4 class="project-title" data-i18n="proj2_title">Virtual Pedal (Sanal Pedal - Teknofest VR/Arduino)</h4>
+                                <div class="project-tag" data-i18n="proj2_role">Lead Mentor & Team Project</div>
+                                <p class="project-desc" data-i18n="proj2_desc">Designed and developed an Arduino-based Virtual Reality (VR) exercise and cycling game in collaboration with student members of Ida Explorers.</p>
+                            </div>
+                        </article>
+
+                        <article class="project-card">
+                            <div>
+                                <h4 class="project-title" data-i18n="proj3_title">Fly Fly Butterfly (eTwinning International Project)</h4>
+                                <div class="project-tag" data-i18n="proj3_role">Founder & Technological Coordinator</div>
+                                <p class="project-desc" data-i18n="proj3_desc">Founded and managed an international school collaboration project, overseeing the digital infrastructure and interactive cross-cultural learning activities.</p>
+                            </div>
+                        </article>
+
+                        <article class="project-card">
+                            <div>
+                                <h4 class="project-title" data-i18n="proj4_title">EduManu (edumanu.com)</h4>
+                                <div class="project-tag" data-i18n="proj4_role">Co-Founder & Instructional Designer</div>
+                                <p class="project-desc" data-i18n="proj4_desc">Developing innovative instructional design materials, educational technology guides, and AI integration resources for teachers and learners worldwide.</p>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+
+                <!-- Education -->
+                <section class="resume-section">
+                    <h3 class="section-heading">
+                        <span class="section-heading-icon">🎓</span>
+                        <span data-i18n="sec_education">EDUCATION & ACADEMIC RESEARCH</span>
+                    </h3>
+
+                    <article class="resume-block">
+                        <div class="block-header">
+                            <h4 class="block-role" data-i18n="edu1_degree">Master of Science (M.Sc.) Student in Educational Technology (EdTech)</h4>
+                            <span class="block-date" data-i18n="edu1_status">Ongoing</span>
+                        </div>
+                        <div class="block-org" data-i18n="edu1_inst">Graduate School of Educational Sciences</div>
+                        <p class="block-desc" data-i18n="edu1_desc">Focus Areas: Digital Anthropology, Digital Ethnography, AI tools in educational workflows, and instructional design.</p>
+                    </article>
+
+                    <article class="resume-block">
+                        <div class="block-header">
+                            <h4 class="block-role" data-i18n="edu2_degree">Bachelor of Arts (B.A.) Degree</h4>
+                            <span class="block-date" data-i18n="edu2_status">Graduated</span>
+                        </div>
+                        <div class="block-org" data-i18n="edu2_inst">Faculty of Education</div>
+                        <p class="block-desc" data-i18n="edu2_desc">Focus Areas: Pedagogy, communicative learning methodologies, and curriculum development.</p>
+                    </article>
+                </section>
+
+                <!-- Verified Certificates Gallery -->
+                <section class="resume-section" id="certificates">
+                    <h3 class="section-heading">
+                        <span class="section-heading-icon">📜</span>
+                        <span data-i18n="sec_certificates">VERIFIED CERTIFICATES & CREDENTIALS</span>
+                    </h3>
+
+                    <!-- Filter Chips -->
+                    <div class="cert-filter-bar">
+                        <button class="filter-chip active" data-filter="all" data-i18n="cert_filter_all">All Certificates (14)</button>
+                        <button class="filter-chip" data-filter="ai" data-i18n="cert_filter_ai">AI & Digital Skills</button>
+                        <button class="filter-chip" data-filter="google" data-i18n="cert_filter_google">Google Certified</button>
+                        <button class="filter-chip" data-filter="eu" data-i18n="cert_filter_eu">EU & International</button>
+                    </div>
+
+                    <!-- Certificates Grid -->
+                    <div class="cert-list-grid">
+                        <!-- Cert 1 -->
+                        <article class="cert-card-item" data-category="eu ai">
+                            <div>
+                                <div class="cert-badge-tag">EU & eTwinning</div>
+                                <h4 class="cert-name-text" data-i18n="cert_1">AI Mosaic - European Quality Label</h4>
+                                <div class="cert-org-text" data-i18n="cert_1_org">eTwinning / European Schoolnet</div>
+                            </div>
+                            <button class="btn-pdf-modal" onclick="openCertModal('AI_MOSAIC_QL_EUROPE.pdf', 'cert_1')" data-i18n="btn_view_pdf">📄 View PDF</button>
+                        </article>
+
+                        <!-- Cert 2 -->
+                        <article class="cert-card-item" data-category="eu ai">
+                            <div>
+                                <div class="cert-badge-tag">National Quality Label</div>
+                                <h4 class="cert-name-text" data-i18n="cert_2">AI Mosaic - National Quality Label</h4>
+                                <div class="cert-org-text" data-i18n="cert_2_org">MEB / eTwinning Turkey</div>
+                            </div>
+                            <button class="btn-pdf-modal" onclick="openCertModal('AI_MOSAIC_QL_NATIONAL.pdf', 'cert_2')" data-i18n="btn_view_pdf">📄 View PDF</button>
+                        </article>
+
+                        <!-- Cert 3 -->
+                        <article class="cert-card-item" data-category="eu ai">
+                            <div>
+                                <div class="cert-badge-tag">DigCompEdu</div>
+                                <h4 class="cert-name-text" data-i18n="cert_3">Educators' Digital Competencies Certificate</h4>
+                                <div class="cert-org-text" data-i18n="cert_3_org">European Digital Framework (DigCompEdu)</div>
+                            </div>
+                            <button class="btn-pdf-modal" onclick="openCertModal('Educators_Digital_Competencies_Certificate_copy.pdf', 'cert_3')" data-i18n="btn_view_pdf">📄 View PDF</button>
+                        </article>
+
+                        <!-- Cert 4 -->
+                        <article class="cert-card-item" data-category="eu">
+                            <div>
+                                <div class="cert-badge-tag">Erasmus+ Mobility</div>
+                                <h4 class="cert-name-text" data-i18n="cert_4">Erasmus+ Prague Mobility & Training Certificate</h4>
+                                <div class="cert-org-text" data-i18n="cert_4_org">Erasmus+ Program (Czech Republic)</div>
+                            </div>
+                            <button class="btn-pdf-modal" onclick="openCertModal('Ersmus Prague Sertifika.pdf', 'cert_4')" data-i18n="btn_view_pdf">📄 View PDF</button>
+                        </article>
+
+                        <!-- Cert 5 -->
+                        <article class="cert-card-item" data-category="google ai">
+                            <div>
+                                <div class="cert-badge-tag">Google AI</div>
+                                <h4 class="cert-name-text" data-i18n="cert_5">Google Gemini Certified Educator</h4>
+                                <div class="cert-org-text" data-i18n="cert_5_org">Google for Education</div>
+                            </div>
+                            <button class="btn-pdf-modal" onclick="openCertModal('Gemini_Certified_Educator.pdf', 'cert_5')" data-i18n="btn_view_pdf">📄 View PDF</button>
+                        </article>
+
+                        <!-- Cert 6 -->
+                        <article class="cert-card-item" data-category="google">
+                            <div>
+                                <div class="cert-badge-tag">Google Level 1</div>
+                                <h4 class="cert-name-text" data-i18n="cert_6">Google Certified Educator - Level 1</h4>
+                                <div class="cert-org-text" data-i18n="cert_6_org">Google for Education</div>
+                            </div>
+                            <button class="btn-pdf-modal" onclick="openCertModal('Google_Certified_Educator_Level1.pdf', 'cert_6')" data-i18n="btn_view_pdf">📄 View PDF</button>
+                        </article>
+
+                        <!-- Cert 7 -->
+                        <article class="cert-card-item" data-category="google">
+                            <div>
+                                <div class="cert-badge-tag">Google Level 2</div>
+                                <h4 class="cert-name-text" data-i18n="cert_7">Google Certified Educator - Level 2</h4>
+                                <div class="cert-org-text" data-i18n="cert_7_org">Google for Education</div>
+                            </div>
+                            <button class="btn-pdf-modal" onclick="openCertModal('Google_Certified_Educator_Level2.pdf', 'cert_7')" data-i18n="btn_view_pdf">📄 View PDF</button>
+                        </article>
+
+                        <!-- Cert 8 -->
+                        <article class="cert-card-item" data-category="ai">
+                            <div>
+                                <div class="cert-badge-tag">MEB Ministry</div>
+                                <h4 class="cert-name-text" data-i18n="cert_8">MEB AI in Education Course Certificate</h4>
+                                <div class="cert-org-text" data-i18n="cert_8_org">Ministry of National Education</div>
+                            </div>
+                            <button class="btn-pdf-modal" onclick="openCertModal('MEB_Eğitimde Yapay Zeka Kursu.pdf', 'cert_8')" data-i18n="btn_view_pdf">📄 View PDF</button>
+                        </article>
+
+                        <!-- Cert 9 -->
+                        <article class="cert-card-item" data-category="eu ai">
+                            <div>
+                                <div class="cert-badge-tag">European Schoolnet</div>
+                                <h4 class="cert-name-text" data-i18n="cert_9">European Schoolnet Academy Master MOOC Certificates</h4>
+                                <div class="cert-org-text" data-i18n="cert_9_org">European Schoolnet Academy</div>
+                            </div>
+                            <button class="btn-pdf-modal" onclick="openCertModal('MOOC_ALL_certificates.pdf', 'cert_9')" data-i18n="btn_view_pdf">📄 View PDF</button>
+                        </article>
+
+                        <!-- Cert 10 -->
+                        <article class="cert-card-item" data-category="eu ai">
+                            <div>
+                                <div class="cert-badge-tag">EU Commission</div>
+                                <h4 class="cert-name-text" data-i18n="cert_10">SELFIEforTEACHERS Digital Competence Certificate</h4>
+                                <div class="cert-org-text" data-i18n="cert_10_org">European Commission</div>
+                            </div>
+                            <button class="btn-pdf-modal" onclick="openCertModal('SELFIEforTEACHERS_Certificate.pdf', 'cert_10')" data-i18n="btn_view_pdf">📄 View PDF</button>
+                        </article>
+
+                        <!-- Cert 11 -->
+                        <article class="cert-card-item" data-category="eu">
+                            <div>
+                                <div class="cert-badge-tag">MEB & eTwinning</div>
+                                <h4 class="cert-name-text" data-i18n="cert_11">Türkiye Yüzyılı Maarif Modeli eTwinning Workshop</h4>
+                                <div class="cert-org-text" data-i18n="cert_11_org">MEB Marmara Region Workshop</div>
+                            </div>
+                            <button class="btn-pdf-modal" onclick="openCertModal('Türkiye Yüzyılı Maarif Modeli eTwinning Çevrim İçi Marmara Bölge Çalıştayı.pdf', 'cert_11')" data-i18n="btn_view_pdf">📄 View PDF</button>
+                        </article>
+
+                        <!-- Cert 12 -->
+                        <article class="cert-card-item" data-category="ai">
+                            <div>
+                                <div class="cert-badge-tag">AI Ethics</div>
+                                <h4 class="cert-name-text" data-i18n="cert_12">AI Ethics in Education Certificate</h4>
+                                <div class="cert-org-text" data-i18n="cert_12_org">Ministry of National Education</div>
+                            </div>
+                            <button class="btn-pdf-modal" onclick="openCertModal('Yapay Zeka Etiği.pdf', 'cert_12')" data-i18n="btn_view_pdf">📄 View PDF</button>
+                        </article>
+
+                        <!-- Cert 13 -->
+                        <article class="cert-card-item" data-category="ai">
+                            <div>
+                                <div class="cert-badge-tag">Canva EdTech</div>
+                                <h4 class="cert-name-text" data-i18n="cert_13">Canva Digital Educator Certificate</h4>
+                                <div class="cert-org-text" data-i18n="cert_13_org">Canva for Education</div>
+                            </div>
+                            <button class="btn-pdf-modal" onclick="openCertModal('canva dijital öğretmen.pdf', 'cert_13')" data-i18n="btn_view_pdf">📄 View PDF</button>
+                        </article>
+
+                        <!-- Cert 14 -->
+                        <article class="cert-card-item" data-category="ai">
+                            <div>
+                                <div class="cert-badge-tag">Classroom AI</div>
+                                <h4 class="cert-name-text" data-i18n="cert_14">AI in the Classroom Specialist Certificate</h4>
+                                <div class="cert-org-text" data-i18n="cert_14_org">International EdTech Association</div>
+                            </div>
+                            <button class="btn-pdf-modal" onclick="openCertModal('serhat-kabais-ai-in-the-classroom-certificate.pdf', 'cert_14')" data-i18n="btn_view_pdf">📄 View PDF</button>
+                        </article>
+                    </div>
+                </section>
+
+                <footer class="footer-section">
+                    <p data-i18n="footer_text">Serhat KABAİŞ — K-12 Educator, EdTech Specialist & Co-Founder of edumanu.com.</p>
+                </footer>
+            </section>
+        </div>
+    </main>
+
+    <!-- PDF Viewer Modal Popup -->
+    <div id="certModal" class="modal-backdrop">
+        <div class="modal-dialog">
+            <div class="modal-header">
+                <h3 id="modalTitle" class="modal-title">Certificate Document Preview</h3>
+                <button id="modalCloseBtn" class="modal-close">&times;</button>
+            </div>
+            <div class="modal-content-pdf">
+                <iframe id="modalIframe" class="modal-pdf-frame" src="" title="Certificate PDF"></iframe>
+            </div>
+            <div class="modal-footer">
+                <a id="modalOpenTab" href="#" target="_blank" class="filter-chip" data-i18n="btn_open_new_tab">Open in New Tab ↗</a>
+                <button class="btn-print" onclick="document.getElementById('modalCloseBtn').click()" data-i18n="btn_close">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="translations.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
