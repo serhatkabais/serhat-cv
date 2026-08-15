@@ -67,12 +67,12 @@ const translations = {
         // Experience
         exp1_role: "K-12 Educator",
         exp1_org: "Ministry of National Education (MEB)",
-        exp1_date: "Starting Year – Present (22+ Years)",
+        exp1_date: "22+ Years Experience",
         exp1_desc: "Implementing innovative, student-centered teaching methodologies across K-12 levels. Integrating AI tools and digital platforms into daily lesson plans to create interactive, future-ready learning environments.",
 
         exp3_role: "Founder & Club Coordinator",
         exp3_org: "İda Kaşifleri (Ida Explorers - Nature, Science & Tech Club)",
-        exp3_date: "Starting Year – Present",
+        exp3_date: "Founder & Active Mentor",
         exp3_desc: "Designing hands-on science, technology, and nature workshops for children. Developing practical hardware and software projects with students to foster maker culture and creative problem-solving.",
 
         // Projects
@@ -213,12 +213,12 @@ const translations = {
         // Experience
         exp1_role: "Educatore K-12",
         exp1_org: "Ministero dell'Istruzione Nazionale (MEB)",
-        exp1_date: "Inizio – In corso (22+ Anni)",
+        exp1_date: "22+ Anni di Esperienza",
         exp1_desc: "Applicazione di metodologie innovative e centrate sullo studente nei livelli K-12. Integrazione di strumenti IA e piattaforme digitali nei piani di lezione giornalieri.",
 
         exp3_role: "Fondatore & Coordinatore del Club",
         exp3_org: "İda Kaşifleri (Esploratori dell'Ida - Club Natura, Scienza e Tecnologia)",
-        exp3_date: "Inizio – In corso",
+        exp3_date: "Fondatore & Mentore Attivo",
         exp3_desc: "Progettazione di workshop di scienza, tecnologia e natura per ragazzi. Sviluppo di progetti hardware e software con gli studenti.",
 
         // Projects
@@ -235,7 +235,7 @@ const translations = {
         proj3_title: "Fly Fly Butterfly (Progetto Internazionale eTwinning)",
         proj3_role: "Fondatore & Coordinatore Tecnologico",
         proj3_date: "Collaborazione Internazionale",
-        proj3_desc: "Fondazione e gestione di un progetto di collaborazione tra scuole internazionali, curando l'infrastruttura digitale e le attività interculturali.",
+        proj3_desc: "Fondazione e gestione di un progetto di collaborazione tra scuole internazionali, curando l'infrastruttura digitale e le activities interculturali.",
 
         proj4_title: "EduManu (edumanu.com)",
         proj4_role: "Cofondatore & Instructional Designer",
@@ -287,7 +287,7 @@ const translations = {
         cert_11_org: "Workshop Regionale MEB Marmara",
         cert_12: "Certificato di Etica dell'IA nell'Educazione",
         cert_12_org: "Ministero dell'Istruzione Nazionale",
-        cert_13: "Certificato Educatore Digitale Canva",
+        cert_13: "Canva Digital Educator Certificate",
         cert_13_org: "Canva for Education",
         cert_14: "Specialista IA in Classe",
         cert_14_org: "Associazione Internazionale EdTech",
@@ -359,12 +359,12 @@ const translations = {
         // Experience
         exp1_role: "K-12 Eğitmeni",
         exp1_org: "Milli Eğitim Bakanlığı (MEB)",
-        exp1_date: "Başlangıç Yılı – Devam Ediyor (22+ Yıl)",
+        exp1_date: "22+ Yıl Deneyim",
         exp1_desc: "K-12 kademesinde 22 yılı aşkın süredir yenilikçi ve öğrenci merkezli eğitim metodolojileri uygulamak. Yapay zeka araçlarını ve dijital platformları ders planlarına entegre ederek interaktif bir öğrenme ortamı sunmak.",
 
         exp3_role: "Kulüp Koordinatörü & Kurucu",
         exp3_org: "İda Kaşifleri (Doğa, Bilim ve Teknoloji Kulübü)",
-        exp3_date: "Başlangıç Yılı – Devam Ediyor",
+        exp3_date: "Kurucu & Aktif Mentor",
         exp3_desc: "Çocuklara yönelik bilim, teknoloji ve doğa odaklı atölyeler ve projeler tasarlamak. Öğrencilerle birlikte uygulamalı donanım ve yazılım projeleri geliştirerek maker kültürünü yaygınlaştırmak.",
 
         // Projects
