@@ -87,9 +87,9 @@ const translations = {
         proj2_desc: "Designed and developed an Arduino-based Virtual Reality (VR) exercise and cycling game in collaboration with student members of Ida Explorers.",
 
         proj3_title: "Fly Fly Butterfly (eTwinning International Project)",
-        proj3_role: "Founder & Technological Coordinator",
+        proj3_role: "Co-Founder & Technological Coordinator",
         proj3_date: "International Collaboration",
-        proj3_desc: "Founded and managed an international school collaboration project, overseeing the digital infrastructure and interactive cross-cultural learning activities.",
+        proj3_desc: "Co-founded and managed an international school collaboration project, overseeing the digital infrastructure and interactive cross-cultural learning activities.",
 
         proj4_title: "EduManu (edumanu.com)",
         proj4_role: "Co-Founder & Instructional Designer",
@@ -97,7 +97,7 @@ const translations = {
         proj4_desc: "Developing innovative instructional design materials, educational technology guides, and AI integration resources for teachers and learners worldwide.",
 
         proj5_title: "AI Mosaic (European Quality Label eTwinning Project)",
-        proj5_role: "Project Founder & AI Technology Coordinator",
+        proj5_role: "Co-Founder & AI Technology Coordinator",
         proj5_desc: "Award-winning international eTwinning project combining primary arts education with generative AI tools (ElevenLabs, HeyGen, Google Veo). Digitally resurrected historical figures like Aristotle using AI avatars to enhance cultural heritage awareness.",
 
         // Education
@@ -233,9 +233,9 @@ const translations = {
         proj2_desc: "Sviluppo di un gioco di esercizi in bicicletta con Realtà Virtuale (VR) basato su Arduino in collaborazione con gli studenti del club İda Kaşifleri.",
 
         proj3_title: "Fly Fly Butterfly (Progetto Internazionale eTwinning)",
-        proj3_role: "Fondatore & Coordinatore Tecnologico",
+        proj3_role: "Cofondatore & Coordinatore Tecnologico",
         proj3_date: "Collaborazione Internazionale",
-        proj3_desc: "Fondazione e gestione di un progetto di collaborazione tra scuole internazionali, curando l'infrastruttura digitale e le activities interculturali.",
+        proj3_desc: "Cofondazione e gestione di un progetto di collaborazione tra scuole internazionali, curando l'infrastruttura digitale e le attività interculturali.",
 
         proj4_title: "EduManu (edumanu.com)",
         proj4_role: "Cofondatore & Instructional Designer",
@@ -243,7 +243,7 @@ const translations = {
         proj4_desc: "Sviluppo di materiali didattici innovativi, guide per le tecnologie educative e risorse per l'integrazione dell'IA dedicate a docenti e studenti.",
 
         proj5_title: "AI Mosaic (Progetto eTwinning con Certificato di Qualità Europeo)",
-        proj5_role: "Fondatore del Progetto & Coordinatore Tecnologie IA",
+        proj5_role: "Cofondatore & Coordinatore Tecnologie IA",
         proj5_desc: "Progetto eTwinning internazionale pluri-premiato che unisce l'educazione artistica con strumenti di IA generativa (ElevenLabs, HeyGen, Google Veo) per far rivivere figure storiche come Aristotele tramite avatar digitali.",
 
         // Education
@@ -379,9 +379,9 @@ const translations = {
         proj2_desc: "İda Kaşifleri ekibi ile birlikte, Arduino tabanlı bir VR (Sanal Gerçeklik) egzersiz ve bisiklet oyununun tasarlanması ve geliştirilmesi.",
 
         proj3_title: "Fly Fly Butterfly (eTwinning Uluslararası Projesi)",
-        proj3_role: "Kurucu & Teknoloji Koordinatörü",
+        proj3_role: "Kurucu Ortak & Teknoloji Koordinatörü",
         proj3_date: "Uluslararası Okul İşbirliği",
-        proj3_desc: "Uluslararası okul işbirliklerini barındıran projenin kuruculuğu/koordinatörlüğü ve teknolojik altyapısının yönetimi.",
+        proj3_desc: "Uluslararası okul işbirliklerini barındıran projenin kurucu ortaklığı/koordinatörlüğü ve teknolojik altyapısının yönetimi.",
 
         proj4_title: "EduManu (edumanu.com)",
         proj4_role: "Kurucu Ortak & Öğretim Tasarımcısı",
@@ -389,7 +389,7 @@ const translations = {
         proj4_desc: "Eğitmenler ve öğrenciler için yenilikçi öğretim tasarımı materyalleri, eğitim teknolojisi rehberleri ve yapay zeka entegrasyon kaynakları geliştirme.",
 
         proj5_title: "AI Mosaic (Avrupa Kalite Etiketli eTwinning Projesi)",
-        proj5_role: "Proje Kurucusu & AI Teknolojileri Koordinatörü",
+        proj5_role: "Kurucu Ortak & AI Teknolojileri Koordinatörü",
         proj5_desc: "İlkokul düzeyinde sanat ile üretken yapay zeka araçlarını (ElevenLabs, HeyGen, Google Veo) birleştiren; Aristo gibi tarihi figürleri dijital avatarlarla canlandırıp kültürel mirası işleyen, Avrupa Kalite Etiketli uluslararası eTwinning projesi.",
 
         // Education
