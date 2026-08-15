@@ -70,9 +70,9 @@ const translations = {
         exp1_date: "22+ Years Experience",
         exp1_desc: "Implementing innovative, student-centered teaching methodologies across K-12 levels. Integrating AI tools and digital platforms into daily lesson plans to create interactive, future-ready learning environments.",
 
-        exp3_role: "Founder & Club Coordinator",
-        exp3_org: "İda Kaşifleri (Ida Explorers - Nature, Science & Tech Club)",
-        exp3_date: "Founder & Active Mentor",
+        exp3_role: "Co-Founder & Workshop Coordinator",
+        exp3_org: "İda Kaşifleri (Tech & Nature Workshop)",
+        exp3_date: "Co-Founder & Active Mentor",
         exp3_desc: "Designing hands-on science, technology, and nature workshops for children. Developing practical hardware and software projects with students to foster maker culture and creative problem-solving.",
 
         // Projects
@@ -82,7 +82,7 @@ const translations = {
         proj1_desc: "Organized and executed a rural science festival under TÜBİTAK 4009, bringing science, technology, and interactive experiments to children in the Assos / Gülpınar region.",
 
         proj2_title: "Virtual Pedal (Sanal Pedal - Teknofest VR/Arduino)",
-        proj2_role: "Lead Mentor & Team Project",
+        proj2_role: "Lead Mentor & Co-Founder",
         proj2_date: "Teknofest Project",
         proj2_desc: "Designed and developed an Arduino-based Virtual Reality (VR) exercise and cycling game in collaboration with student members of Ida Explorers.",
 
@@ -216,9 +216,9 @@ const translations = {
         exp1_date: "22+ Anni di Esperienza",
         exp1_desc: "Applicazione di metodologie innovative e centrate sullo studente nei livelli K-12. Integrazione di strumenti IA e piattaforme digitali nei piani di lezione giornalieri.",
 
-        exp3_role: "Fondatore & Coordinatore del Club",
-        exp3_org: "İda Kaşifleri (Esploratori dell'Ida - Club Natura, Scienza e Tecnologia)",
-        exp3_date: "Fondatore & Mentore Attivo",
+        exp3_role: "Cofondatore & Coordinatore del Laboratorio",
+        exp3_org: "İda Kaşifleri (Laboratorio di Tecnologia e Natura)",
+        exp3_date: "Cofondatore & Mentore Attivo",
         exp3_desc: "Progettazione di workshop di scienza, tecnologia e natura per ragazzi. Sviluppo di progetti hardware e software con gli studenti.",
 
         // Projects
@@ -228,7 +228,7 @@ const translations = {
         proj1_desc: "Organizzazione e realizzazione di un festival scientifico rurale per portare scienza, tecnologia ed esperimenti interattivi ai bambini della regione Assos / Gülpınar.",
 
         proj2_title: "Pedale Virtuale (Sanal Pedal - Progetto Teknofest VR/Arduino)",
-        proj2_role: "Mentore Principale del Progetto",
+        proj2_role: "Mentore Principale & Cofondatore",
         proj2_date: "Progetto Teknofest",
         proj2_desc: "Sviluppo di un gioco di esercizi in bicicletta con Realtà Virtuale (VR) basato su Arduino in collaborazione con gli studenti del club İda Kaşifleri.",
 
@@ -281,7 +281,7 @@ const translations = {
         cert_8_org: "Ministero dell'Istruzione Nazionale",
         cert_9: "Certificati Master MOOC European Schoolnet Academy",
         cert_9_org: "European Schoolnet Academy",
-        cert_10: "Certificato di Competenza Digitale SELFIEforTEACHERS",
+        cert_10: "SELFIEforTEACHERS Digital Competence Certificate",
         cert_10_org: "Commissione Europea",
         cert_11: "Workshop Regionale eTwinning Modello Maarif",
         cert_11_org: "Workshop Regionale MEB Marmara",
@@ -342,7 +342,7 @@ const translations = {
         hl_4: "Eğitim içerikleri üretimi",
         hl_5: "Eğitimde yapay zeka entegrasyonu",
         hl_6: "Video, grafik ve ses prodüksiyonu",
-        hl_7: "Co-founder İda Kaşifleri Teknoloji ve Doğa Atölyesi",
+        hl_7: "Kurucu Ortak, İda Kaşifleri Teknoloji ve Doğa Atölyesi",
         hl_8: "Çeşitli eğitim projeleri koordinatörü",
 
         // Section Headings
@@ -362,9 +362,9 @@ const translations = {
         exp1_date: "22+ Yıl Deneyim",
         exp1_desc: "K-12 kademesinde 22 yılı aşkın süredir yenilikçi ve öğrenci merkezli eğitim metodolojileri uygulamak. Yapay zeka araçlarını ve dijital platformları ders planlarına entegre ederek interaktif bir öğrenme ortamı sunmak.",
 
-        exp3_role: "Kulüp Koordinatörü & Kurucu",
-        exp3_org: "İda Kaşifleri (Doğa, Bilim ve Teknoloji Kulübü)",
-        exp3_date: "Kurucu & Aktif Mentor",
+        exp3_role: "Kurucu Ortak & Atölye Koordinatörü",
+        exp3_org: "İda Kaşifleri (Teknoloji ve Doğa Atölyesi)",
+        exp3_date: "Kurucu Ortak & Aktif Mentor",
         exp3_desc: "Çocuklara yönelik bilim, teknoloji ve doğa odaklı atölyeler ve projeler tasarlamak. Öğrencilerle birlikte uygulamalı donanım ve yazılım projeleri geliştirerek maker kültürünü yaygınlaştırmak.",
 
         // Projects
@@ -374,7 +374,7 @@ const translations = {
         proj1_desc: "TÜBİTAK 4009 kapsamında Assos / Gülpınar bölgesindeki çocukları bilim, teknoloji ve uygulamalı deneylerle buluşturan bilim şenliği yürütücülüğü.",
 
         proj2_title: "Sanal Pedal (Teknofest VR/Arduino Projesi)",
-        proj2_role: "Ekip Danışmanı & Proje Lideri",
+        proj2_role: "Ekip Danışmanı & Kurucu Ortak",
         proj2_date: "Teknofest Projesi",
         proj2_desc: "İda Kaşifleri ekibi ile birlikte, Arduino tabanlı bir VR (Sanal Gerçeklik) egzersiz ve bisiklet oyununun tasarlanması ve geliştirilmesi.",
 
