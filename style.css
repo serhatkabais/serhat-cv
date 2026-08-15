@@ -140,6 +140,29 @@ body {
   transform: translateY(-1px);
 }
 
+.btn-website {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: #f8fafc;
+  color: var(--accent-navy);
+  border: 1px solid #cbd5e1;
+  font-family: var(--font-heading);
+  font-size: 0.85rem;
+  font-weight: 700;
+  padding: 0.45rem 1.1rem;
+  border-radius: 20px;
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+.btn-website:hover {
+  background: #e2e8f0;
+  color: var(--accent-blue);
+  border-color: var(--accent-blue);
+  transform: translateY(-1px);
+}
+
 /* CV Main Container Paper Sheet */
 .cv-document {
   max-width: 1080px;

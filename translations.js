@@ -12,6 +12,7 @@ const translations = {
         nav_education: "Education",
         nav_skills: "Skills",
         nav_certificates: "Certificates",
+        nav_visit_website: "🌐 edumanu.com",
         btn_print_cv: "Print / Save PDF CV",
         btn_close: "Close",
         btn_view_pdf: "View PDF Certificate",
@@ -44,12 +45,13 @@ const translations = {
 
         sb_highlights: "KEY HIGHLIGHTS",
         hl_1: "22+ Years of K-12 Teaching Experience",
-        hl_2: "EdTech Specialist",
-        hl_3: "Educational Content Production",
-        hl_4: "Integrating AI Tools into Education",
-        hl_5: "Video, Graphic & Audio Production",
-        hl_6: "Co-Founder, İda Kaşifleri Tech & Nature Workshop",
-        hl_7: "Coordinator for Various Educational Projects",
+        hl_2: "Co-Founder, edumanu.com",
+        hl_3: "EdTech Specialist",
+        hl_4: "Educational Content Production",
+        hl_5: "Integrating AI Tools into Education",
+        hl_6: "Video, Graphic & Audio Production",
+        hl_7: "Co-Founder, İda Kaşifleri Tech & Nature Workshop",
+        hl_8: "Coordinator for Various Educational Projects",
 
         // Section Headings
         sec_profile: "PROFILE & SUMMARY",
@@ -59,7 +61,7 @@ const translations = {
         sec_certificates: "VERIFIED CERTIFICATES & CREDENTIALS",
 
         // Profile Text
-        profile_p1: "Innovative educator with over 22 years of K-12 classroom teaching experience. Specialized in integrating Educational Technology (EdTech), Artificial Intelligence (AI), and physical programming tools into the curriculum to boost student engagement and project-based learning.",
+        profile_p1: "Innovative educator with over 22 years of K-12 classroom teaching experience and Co-Founder of edumanu.com. Specialized in integrating Educational Technology (EdTech), Artificial Intelligence (AI), and physical programming tools into the curriculum to boost student engagement and project-based learning.",
         profile_p2: "Currently a Master's student in Educational Technology (EdTech), conducting research on digital anthropology, digital ethnography, and the transformative role of AI in learning environments. Active as a coordinator and AI trainer in national and international initiatives, including TÜBİTAK and eTwinning projects.",
 
         // Experience
@@ -156,6 +158,7 @@ const translations = {
         nav_education: "Formazione",
         nav_skills: "Competenze",
         nav_certificates: "Certificati",
+        nav_visit_website: "🌐 edumanu.com",
         btn_print_cv: "Stampa / Scarica CV PDF",
         btn_close: "Chiudi",
         btn_view_pdf: "Visualizza PDF",
@@ -188,12 +191,13 @@ const translations = {
 
         sb_highlights: "PUNTI DI FORZA",
         hl_1: "Oltre 22 Anni di Esperienza K-12",
-        hl_2: "Specialista EdTech",
-        hl_3: "Produzione di Contenuti Educativi",
-        hl_4: "Integrazione degli Strumenti IA nell'Educazione",
-        hl_5: "Produzione Video, Grafica e Audio",
-        hl_6: "Cofondatore, İda Kaşifleri Laboratorio di Tecnologia e Natura",
-        hl_7: "Coordinatore di Vari Progetti Educativi",
+        hl_2: "Cofondatore, edumanu.com",
+        hl_3: "Specialista EdTech",
+        hl_4: "Produzione di Contenuti Educativi",
+        hl_5: "Integrazione degli Strumenti IA nell'Educazione",
+        hl_6: "Produzione Video, Grafica e Audio",
+        hl_7: "Cofondatore, İda Kaşifleri Laboratorio di Tecnologia e Natura",
+        hl_8: "Coordinatore di Vari Progetti Educativi",
 
         // Section Headings
         sec_profile: "PROFILO & SINTESI PROFESSIONALE",
@@ -203,7 +207,7 @@ const translations = {
         sec_certificates: "CERTIFICATI & QUALIFICHE VERIFICATE",
 
         // Profile Text
-        profile_p1: "Educatore innovativo con oltre 22 anni di esperienza pratica in classe a livello K-12. Specializzato nell'integrazione di Tecnologie Educative (EdTech), Intelligenza Artificiale (IA) e strumenti di programmazione fisica nel curriculum.",
+        profile_p1: "Educatore innovativo con oltre 22 anni di esperienza pratica in classe a livello K-12 e Cofondatore di edumanu.com. Specializzato nell'integrazione di Tecnologie Educative (EdTech), Intelligenza Artificiale (IA) e strumenti di programmazione fisica nel curriculum.",
         profile_p2: "Attualmente studente di Laurea Magistrale in Tecnologie Educative (EdTech), svolge ricerche su antropologia digitale, etnografia digitale e sull'impatto dell'IA nell'educazione. Coordinatore di progetti e formatore IA in iniziative nazionali e internazionali tra cui TÜBİTAK ed eTwinning.",
 
         // Experience
@@ -231,7 +235,7 @@ const translations = {
         proj3_title: "Fly Fly Butterfly (Progetto Internazionale eTwinning)",
         proj3_role: "Fondatore & Coordinatore Tecnologico",
         proj3_date: "Collaborazione Internazionale",
-        proj3_desc: "Fondazione e gestione di un progetto di collaborazione tra scuole internazionali, curando l'infrastruttura digitale e le activities interculturali.",
+        proj3_desc: "Fondazione e gestione di un progetto di collaborazione tra scuole internazionali, curando l'infrastruttura digitale e le attività interculturali.",
 
         proj4_title: "EduManu (edumanu.com)",
         proj4_role: "Cofondatore & Instructional Designer",
@@ -300,6 +304,7 @@ const translations = {
         nav_education: "Eğitim",
         nav_skills: "Yetkinlikler",
         nav_certificates: "Sertifikalar",
+        nav_visit_website: "🌐 edumanu.com",
         btn_print_cv: "CV Yazdır / PDF İndir",
         btn_close: "Kapat",
         btn_view_pdf: "PDF Sertifikayı Gör",
@@ -332,12 +337,13 @@ const translations = {
 
         sb_highlights: "ÖNE ÇIKANLAR",
         hl_1: "22 yıldan fazla K-12 tecrübesi",
-        hl_2: "EdTech Uzmanı",
-        hl_3: "Eğitim içerikleri üretimi",
-        hl_4: "Eğitimde yapay zeka entegrasyonu",
-        hl_5: "Video, grafik ve ses prodüksiyonu",
-        hl_6: "Co-founder İda Kaşifleri Teknoloji ve Doğa Atölyesi",
-        hl_7: "Çeşitli eğitim projeleri koordinatörü",
+        hl_2: "edumanu.com Kurucu Ortağı",
+        hl_3: "EdTech Uzmanı",
+        hl_4: "Eğitim içerikleri üretimi",
+        hl_5: "Eğitimde yapay zeka entegrasyonu",
+        hl_6: "Video, grafik ve ses prodüksiyonu",
+        hl_7: "Co-founder İda Kaşifleri Teknoloji ve Doğa Atölyesi",
+        hl_8: "Çeşitli eğitim projeleri koordinatörü",
 
         // Section Headings
         sec_profile: "PROFESYONEL ÖZET",
@@ -347,7 +353,7 @@ const translations = {
         sec_certificates: "ONAYLI SERTİFİKALAR VE YETKİNLİK BELGELERİ",
 
         // Profile Text
-        profile_p1: "22 yılı aşkın K-12 sınıf içi tecrübesine sahip, yenilikçi ve araştırmacı eğitmen. Eğitim teknolojileri (EdTech), yapay zeka (AI) ve fiziksel programlama araçlarını müfredata entegre ederek öğrenci katılımını ve proje odaklı öğrenmeyi artırma konusunda uzmanlaşmıştır.",
+        profile_p1: "22 yılı aşkın K-12 sınıf içi tecrübesine sahip, edumanu.com kurucu ortağı, yenilikçi ve araştırmacı eğitmen. Eğitim teknolojileri (EdTech), yapay zeka (AI) ve fiziksel programlama araçlarını müfredata entegre ederek öğrenci katılımını ve proje odaklı öğrenmeyi artırma konusunda uzmanlaşmıştır.",
         profile_p2: "EdTech alanında Yüksek Lisans öğrencisi olarak dijital antropoloji, dijital etnografya ve yapay zeka araçlarının eğitimdeki dönüştürücü rolü üzerine çalışmalar yürütmektedir. TÜBİTAK ve eTwinning gibi ulusal ve uluslararası eğitim projelerinde koordinatör ve yapay zeka eğitmeni olarak görev almaktadır.",
 
         // Experience
